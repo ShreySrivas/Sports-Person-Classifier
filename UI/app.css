@@ -1,0 +1,83 @@
+.card-wrapper {
+    margin: 5% 0;
+  }
+
+ body {
+    background-color: rgb(227, 194, 194);
+}
+
+/* You can adjust the image size by increasing/decreasing the width, height */
+.custom-circle-image {
+  width: 10vw; /* note i used vw not px for better responsive */
+  height: 10vw;
+}
+
+.grow div{
+  transition: 1s ease;
+  background-color: rgb(227, 194, 194);;
+  }
+  
+  .grow div:hover{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1s ease;
+  }
+
+.shrink div {
+  transition: 1s ease;
+  }
+  
+  .shrink div:hover{
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  transition: 1s ease;
+  }
+
+
+.custom-circle-image img {
+  object-fit: cover;
+}
+
+.card-title {
+  letter-spacing: 1.1px;
+}
+
+.card-text {
+  font-family: MerriweatherRegular;
+  font-size: 22px;
+  line-height: initial;
+}
+
+.dropzone {
+  border-style: dashed;
+}
+
+
+.error {
+  font-family: MerriweatherRegular;
+  font-size: 30px;
+  line-height: initial;
+  color: blue;
+  text-align: center;
+}
+
+#classTable {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#classTable td, #classTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#classTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
